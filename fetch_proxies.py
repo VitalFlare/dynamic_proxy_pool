@@ -21,5 +21,5 @@ def fetch_proxy_list():
                 proxies.append(f"{ip}:{port}")
         return proxies
     except Exception as e:
-        print(f"抓取代理失败: {e}")
+        print(f"Fetching proxy failed: {e}")
         return []
