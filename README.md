@@ -8,7 +8,7 @@ This is a Python-based dynamic proxy pool project that fetches free proxy IPs an
 - Automatically fetch public proxy IPs (自动抓取公开代理）
 - Validate proxy availability (验证代理有效性)
 - Save valid proxies to `proxies_valid.txt` (将有效代理保存到 `proxies_valid.txt`)
-- Update every 30 minutes (每30分钟自动更新一次)
+- Update every 15 minutes (每15分钟自动更新一次)
 
 dynamic_proxy_pool/
 ├── run.py                 # Main entry script / 程序主入口 
