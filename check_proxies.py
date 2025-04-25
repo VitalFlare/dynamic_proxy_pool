@@ -14,10 +14,10 @@ def check_proxy(ip_port):
 
     try:
         with urllib.request.urlopen(req, timeout=5) as response:
-            print(f"[√] 有效代理: {ip_port}")
+            print(f"[√] valid proxy: {ip_port}")
             with open('proxies_valid.txt','a') as f:
                 f.write(ip_port + "\n")
             return True
     except:
-        print(f"[×] 无效代理: {ip_port}")
+        print(f"[×] invalid proxy: {ip_port}")
         return False
