@@ -9,7 +9,7 @@ def check_proxy(ip_port):
     urllib.request.install_opener(opener)
 
     req = urllib.request.Request("https://httpbin.org/ip", headers={
-        "User-Agent": "Mozilla/5.0"
+        'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) obsidian/1.8.4 Chrome/130.0.6723.191 Electron/33.3.2 Safari/537.36'
     })
 
     try:
